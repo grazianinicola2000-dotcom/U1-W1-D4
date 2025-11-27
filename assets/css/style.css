@@ -103,6 +103,12 @@ ul code {
   border: 1px, solid #afb1b0;
 }
 /* TABELLE */
+table caption {
+  font-weight: 600;
+  font-style: italic;
+  text-align: center;
+  padding-top: 30px;
+}
 
 /* FORM */
 
