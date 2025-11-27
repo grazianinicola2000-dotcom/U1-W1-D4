@@ -64,7 +64,10 @@ h1 {
   letter-spacing: -1px;
   line-height: 30px;
 }
-
+h2 {
+  padding-top: 25px;
+  padding-bottom: 0;
+}
 .caption {
   color: #a2a0a3;
   font-size: 14px;
@@ -110,8 +113,92 @@ table caption {
   padding-top: 30px;
 }
 
+table {
+  border-bottom: 2px solid #3366cc;
+}
+
+thead {
+  background-color: #4e79d1;
+}
+
+th {
+  border: 1px solid white;
+  border-collapse: collapse;
+  vertical-align: bottom;
+}
+
+.white {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e6;
+}
+
+.gray {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e6;
+  background-color: #f1f1f1;
+}
+
+td,
+th {
+  padding: 13px;
+  text-align: center;
+}
+
+.link {
+  color: #18a5d0;
+  text-decoration: underline;
+}
+
+iframe {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  border-radius: 30px;
+}
 /* FORM */
 
+.form {
+  background-color: #e6dee0;
+  text-align: center;
+  padding-bottom: 15px;
+  margin-top: 40px;
+}
+
+.form h2 {
+  font-size: 22px;
+  font-weight: 500;
+  text-align: center;
+}
+
+input {
+  border: none;
+  border-bottom: 1px dotted black;
+}
+
+button {
+  border: none;
+  background-color: #4a76cf;
+  color: white;
+  font-weight: 500;
+}
 /* ELEMENTI NELL' ASIDE */
+
+aside h2 {
+  font-size: 22px;
+  font-weight: 500;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 40px;
+}
+
+.article {
+  background-color: #e6dee0;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+.related {
+  padding-block: 50px;
+}
 
 /* FOOTER */
