@@ -182,7 +182,9 @@ button {
   font-weight: 500;
 }
 /* ELEMENTI NELL' ASIDE */
-
+aside {
+  padding-bottom: 10px;
+}
 aside h2 {
   font-size: 22px;
   font-weight: 500;
@@ -193,12 +195,40 @@ aside h2 {
 
 .article {
   background-color: #e6dee0;
-  text-align: left;
-  padding-bottom: 15px;
+  margin-block: 10px;
 }
 
 .related {
-  padding-block: 50px;
+  padding-top: 40px;
+}
+
+.date {
+  font-size: 12px;
+  text-align: right;
+  padding-top: 25px;
+  padding-bottom: 15px;
 }
 
 /* FOOTER */
+footer {
+  background: linear-gradient(180deg, rgba(0, 85, 102, 1) 0%, rgba(44, 54, 56, 1) 100%);
+  margin: 4%;
+  text-align: center;
+  box-shadow: -2px 2px 7px 0px #6d6860;
+  color: white;
+}
+
+footer p {
+  padding-block: 15px;
+}
+
+address {
+  font-size: 14px;
+  padding-bottom: 15px;
+  line-height: 23px;
+}
+
+address a {
+  color: #ff00fe;
+  text-decoration: underline;
+}
